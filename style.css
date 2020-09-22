@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    top:0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(clouds.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 60vw;
+    flex-basis: 0px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    background-color: rgba(38, 63, 133, 0.7);
+    border-radius: 10px;
+ 
+    
+}
+.input{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 50px 0px;
+    align-items: center;
+    justify-content: center;
+}
+.input-value{
+    display: flex;
+    height: 30px;
+    max-width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(rgb(179, 187, 204),rgb(88, 142, 212));
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    padding-left: 10px;
+    color: #333333;
+    margin-right: 0px;
+  
+}
+.submitbtn{
+    height: 30px;
+    min-width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(rgb(179, 187, 204),rgb(88, 142, 212));
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 10px;
+    color: #333333;
+    text-align: center;
+}
+.display{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 10px;
+  
+}
+.temp{
+    font-size: 2em;
+    padding: 5px;
+}
+.feels,
+.min-max{
+    font-size: 1.2em;
+    padding: 5px; 
+}

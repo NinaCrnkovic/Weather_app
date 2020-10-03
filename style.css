@@ -16,7 +16,7 @@ body{
 }
 
 .container{
-    width: 60vw;
+    width: 70vw;
     flex-basis: 0px;
     display: flex;
     flex-direction: column;

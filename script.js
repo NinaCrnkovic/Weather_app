@@ -84,7 +84,7 @@ getCordinates=(event)=>{
               this.locationIcon.setAttribute("src", iconUrl);
               this.feels.innerHTML = "Feels like: " + feelsValue + " °C";
               this.minMax.innerHTML =
-                "Temp. min: " + minValue + " °C, Temp. max: " + maxValue + " °C";
+                "Temp. min: " + minValue + " °C, <br> Temp. max: " + maxValue + " °C";
             })
         
             .catch((err) => alert("something went wrong"));

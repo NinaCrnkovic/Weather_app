@@ -87,7 +87,7 @@ getCordinates=(event)=>{
                 "Temp. min: " + minValue + " °C, Temp. max: " + maxValue + " °C";
             })
         
-            .catch((err) => alert("Yoe!"));
+            .catch((err) => alert("something went wrong"));
         
         })
   }
